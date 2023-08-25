@@ -1,5 +1,5 @@
-import Footer from "./NavbarMetodlari/Footer"
-import Header from "./NavbarMetodlari/Header"
+import Footer from "./Pages/Footer"
+import Header from "./Pages/Header"
 
 
 

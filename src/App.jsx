@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router"
-import Home from "./Pages/Home"
-import About from "./Pages/About"
-import Contact from "./Pages/Contact"
+import Home from "./NavbarMetodlar/Home"
+import About from "./NavbarMetodlar/About"
+import Contact from "./NavbarMetodlar/Contact"
 
 
 
