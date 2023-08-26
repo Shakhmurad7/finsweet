@@ -1,4 +1,5 @@
 body{
+    overflow-x: hidden;
     padding: 0;
     margin: 0;
 }
@@ -156,6 +157,48 @@ nav{
 .content-block p{
  padding: 8px 0px;
 }
+
+/* -project- */
+.project{
+    width: 100%;
+    padding: 70px 0;
+}
+.project-top-text{
+    display: flex;
+    justify-content: space-between;
+}
+.project-container {
+    padding-top: 40px;
+}
+.project-top-text h2{
+    font-size: 2rem;
+}
+.project-top-text-row{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+.project-container{
+    gap: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-left{
+    position: relative;
+} 
+.project-left img{
+    width: 100%;
+}
+.project-right img{
+    width: 100%;
+}
+.projecr-block1{
+    padding-top:50px;
+}
+
+
+
 
 /* ---Footer---- */
 footer{

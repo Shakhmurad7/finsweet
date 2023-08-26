@@ -5,6 +5,9 @@ import imgContent1 from "../../assets/img/pointer 1.svg"
 import imgContent2 from "../../assets/img/pointer 1.png"
 import imgContent3 from "../../assets/img/pointer 1 (2).png"
 import imgContent4 from "../../assets/img/pointer 1 (1).png"
+import imgProject1 from "../../assets/img/Card.png"
+import imgProject02 from "../../assets/img/Rectangle 1313.png"
+import imgProject03 from "../../assets/img/Card (1).png"
 
 const Home =()=>{
     return(
@@ -12,6 +15,7 @@ const Home =()=>{
         <PageContainer>
             <Navbar/>
                 <div className="Big-container">
+                    {/* ---content--- */}
                     <div className="content">
                         <div className="content-left">
                             <h2>How we work</h2>
@@ -46,6 +50,28 @@ const Home =()=>{
                                     <h3>Development</h3>
                                     <p>Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam .</p>
                                 </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* ---project--- */}
+                    <div className="project">
+                        <div className="project-top-text">
+                            <h2>View our projects</h2>
+                            <div className="project-top-text-row">
+                                <p>View More</p>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </div>
+                        </div>
+
+                        <div className="project-container">
+                            <div className="project-left">
+                                <img src={imgProject1} />
+
+                            </div>
+                            <div className="project-right">
+                                <div className="projecr-block"><img src={imgProject02} /></div>
+                                <div className="projecr-block1"><img src={imgProject03}  /></div>
                             </div>
                         </div>
                     </div>
