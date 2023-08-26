@@ -102,6 +102,14 @@ const Home =()=>{
 
                  <div className="Card-Big-Container">
                     <div className="Big-container">
+                        <div className="card-item-top">
+
+                                <div className="Card-top-text">
+                                    <h3>Features</h3>
+                                    <h2>Design that solves problems, one product at a time</h2>
+                                 </div>
+
+                        </div>
                         <HomeCard/>
                     </div>
                  </div>
