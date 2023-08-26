@@ -9,6 +9,7 @@ li{
     list-style: none;
 }
 *{
+    font-family: 'Poppins', sans-serif;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -65,10 +66,11 @@ header{
 
 /* ----navbar---- */
 nav{
-    padding-top:80px ;
+    padding:80px 0px;
     background-color: #1C1E53;
 }
 .nav-container{
+    align-items: center;
     justify-content: space-between;
     display: flex;
     gap: 40px;
@@ -107,6 +109,52 @@ nav{
     display: flex;
     gap: 10px;
     align-items: center;
+}
+/* ---content---- */
+.content{
+    padding: 50px 0;
+    display: flex;
+    gap: 100px;
+}
+.content p{
+    color: 
+    #282938;
+}
+.content-left-row h4 , .content-left-row i{
+    color: 
+    #2405F2;
+}
+.content-left h2{
+    font-size: 2.4rem;
+}
+.content-left{
+    width: 100%;
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.content-left-row{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.content-right{
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+.content-right-row{
+    display: flex;
+    gap: 35px;
+}
+.content-block h3{
+    font-size: 25px;
+}
+.content-block p{
+ padding: 8px 0px;
 }
 
 /* ---Footer---- */
@@ -179,5 +227,4 @@ footer{
     color: 
     #282938;
     cursor: pointer;
-
 }
