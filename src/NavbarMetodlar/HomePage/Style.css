@@ -3,6 +3,9 @@ body{
     padding: 0;
     margin: 0;
 }
+html{
+    overflow-x: hidden;
+}
 a{
     text-decoration: none;
 }
@@ -21,7 +24,6 @@ header{
     padding: 10px;
     background-color: 
     #1C1E53;
-
 }
 .Big-container{
     padding: 0px 150px;
@@ -232,6 +234,29 @@ nav{
 }
 .projecr-block1{
     padding-top:50px;
+}
+
+/* ----Card-container---- */
+.Card-Big-Container{
+    padding: 50px 0;
+    background-color: 
+    #e4ebff;
+}
+
+.Card-container{
+    justify-content: center;
+    gap: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card p{
+    padding: 10px 0px;
+}
+.card{
+    background-color: white;
+    padding: 30px;
+    width: 100%;
+    max-width: 400px;
 }
 
 

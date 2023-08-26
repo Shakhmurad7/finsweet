@@ -8,8 +8,13 @@ import imgContent4 from "../../assets/img/pointer 1 (1).png"
 import imgProject1 from "../../assets/img/Card.png"
 import imgProject02 from "../../assets/img/Rectangle 1313.png"
 import imgProject03 from "../../assets/img/Card (1).png"
+import HomeCard from "./HomeCard"
+
+
+
 
 const Home =()=>{
+
     return(
         <>
         <PageContainer>
@@ -93,8 +98,16 @@ const Home =()=>{
                         </div>
                     </div>
                  </div>
-        </PageContainer>
+
+
+                 <div className="Card-Big-Container">
+                    <div className="Big-container">
+                        <HomeCard/>
+                    </div>
+                 </div>
+                 
         
+        </PageContainer>
         </>
     )
 }
