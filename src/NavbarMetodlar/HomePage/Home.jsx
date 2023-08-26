@@ -67,10 +67,27 @@ const Home =()=>{
                         <div className="project-container">
                             <div className="project-left">
                                 <img src={imgProject1} />
+                                <div className="project-block-on-container">
+                                    <h2>Workhub office Webflow Webflow Design</h2>
+                                    <p>Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam </p>
+                                    <div className="project-block-row-icon">
+                                        <p>View project</p>
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </div>
+                                </div>
 
                             </div>
                             <div className="project-right">
-                                <div className="projecr-block"><img src={imgProject02} /></div>
+                                <div className="projecr-block">
+                                    <img src={imgProject02} />
+                                    <div className="project-on-right-block">
+                                        <h2>Unisaas Website Design</h2>
+                                        <div className="project-block-row-icon">
+                                        <p>View project</p>
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </div>
+                                    </div>
+                                </div>
                                 <div className="projecr-block1"><img src={imgProject03}  /></div>
                             </div>
                         </div>
