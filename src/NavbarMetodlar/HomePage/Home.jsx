@@ -8,6 +8,7 @@ import imgContent4 from "../../assets/img/pointer 1 (1).png"
 import imgProject1 from "../../assets/img/Card.png"
 import imgProject02 from "../../assets/img/Rectangle 1313.png"
 import imgProject03 from "../../assets/img/Card (1).png"
+import imgSection from '../../assets/img/woman-writing-on-paper-3228878.png'
 import HomeCard from "./HomeCard"
 import 'swiper/css';
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
@@ -184,7 +185,7 @@ const Home =()=>{
                         </Swiper>
                     </div>
 
-
+                {/* ----Accardion---- */}
                     <div className="accardion-container">
                         <div className="accardion-left">
                             <h2>Frequently asked questions</h2>
@@ -194,6 +195,34 @@ const Home =()=>{
                             <Accardion/>
                         </div>
                     </div>
+
+                    <section>
+                        <div className="sectin-conrainer">
+                            <div className="section-left">
+                                <img src={imgSection}/>
+                                <div className="sectio-left-position">
+                                    <h2>Building stellar websites for early startups</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim.</p>
+                                </div>
+                            </div>
+                            <div className="section-right">
+                                <h2>Send inquiry</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                                <div className="input-section">
+                                    <input type="text"  placeholder="Your Name"/>
+                                    <input type="number" placeholder="Your Number"/>
+                                    <input type="email"  placeholder="Email"/>
+                                    <button>Send an Inquiry</button>
+                                </div>
+                                    <div className="section-right-row">
+                                        <p>Get in touch with us</p>
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </div>
+                            </div>
+                        </div>
+                    </section>
+
+
                  </div>
                  
         
