@@ -352,17 +352,13 @@ nav{
     font-size: 24px;
     color: #2405F2;
 }
-.accardion-right-row-active p{
-    height: 100%;
-}
 .accardion-right-row-text-active p{
-    transition: .8s;
-    height: auto;
+    transition: .5s;
     padding: 10px 0;
+    height: auto;
 }
 .accardion-right-big-row span{
     font-size: 25px;
-    
 }
 .accardion-right-big-row{
     display: flex;
@@ -374,7 +370,7 @@ nav{
     gap: 25px;
 }
 .accardion-right-row-text p{
-    transition: .8s;
+    transition: .5s;
     overflow: hidden;
     height: 0;
 }
