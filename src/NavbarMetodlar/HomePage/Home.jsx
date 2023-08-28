@@ -9,6 +9,13 @@ import imgProject1 from "../../assets/img/Card.png"
 import imgProject02 from "../../assets/img/Rectangle 1313.png"
 import imgProject03 from "../../assets/img/Card (1).png"
 import HomeCard from "./HomeCard"
+import 'swiper/css';
+import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import imgSwiper from '../../assets/img/woman-in-collared-shirt-774909.svg'
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
 
 
 
@@ -112,11 +119,75 @@ const Home =()=>{
                         </div>
                         <HomeCard/>
                     </div>
+
+
+                 </div>
+                 <div className="Big-container">
+                    <div className="Swiper-container">
+
+                    <div className="Swiper-left-contente">
+                        <h1>What our clients say about us</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed.</p>
+                    </div>
+                    <Swiper
+                          modules={[Navigation, Pagination,]}
+                     spaceBetween={50}
+                     slidesPerView={1}
+                     navigation
+                     pagination={{ clickable: true }}
+                     loop={true}
+                     onSlideChange={() => console.log('slide change')}
+                     onSwiper={(swiper) => console.log(swiper)}>
+                        <SwiperSlide><div className="Swiper-content">
+                            <h1>"The best agency we’ve worked with so far. They understand our product and are able to add new features with a great focus."</h1>
+                            <div className="swiper-img">
+                                <img src={imgSwiper}/>
+                                <div className="swiper-text-row">
+                                    <h3>Jenny Wilson</h3>
+                                    <p>Vice President</p>
+                                </div>
+                            </div>
+                                        </div>
+                            </SwiperSlide>
+                        <SwiperSlide><div className="Swiper-content">
+                            <h1>"The best agency we’ve worked with so far. They understand our product and are able to add new features with a great focus."</h1>
+                            <div className="swiper-img">
+                                <img src={imgSwiper}/>
+                                <div className="swiper-text-row">
+                                    <h3>Jenny Wilson</h3>
+                                    <p>Vice President</p>
+                                </div>
+                            </div>
+                                        </div></SwiperSlide>
+                        <SwiperSlide><div className="Swiper-content">
+                            <h1>"The best agency we’ve worked with so far. They understand our product and are able to add new features with a great focus."</h1>
+                            <div className="swiper-img">
+                                <img src={imgSwiper}/>
+                                <div className="swiper-text-row">
+                                    <h3>Jenny Wilson</h3>
+                                    <p>Vice President</p>
+                                </div>
+                            </div>
+                                        </div></SwiperSlide>
+                        <SwiperSlide><div className="Swiper-content">
+                            <h1>"The best agency we’ve worked with so far. They understand our product and are able to add new features with a great focus."</h1>
+                            <div className="swiper-img">
+                                <img src={imgSwiper}/>
+                                <div className="swiper-text-row">
+                                    <h3>Jenny Wilson</h3>
+                                    <p>Vice President</p>
+                                </div>
+                            </div>
+                                        </div></SwiperSlide>
+                        </Swiper>
+                    </div>
                  </div>
                  
         
         </PageContainer>
         </>
+
+
     )
 }
 export default Home
