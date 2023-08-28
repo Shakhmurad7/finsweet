@@ -448,6 +448,15 @@ nav{
 }
 
 
+/* ----section---- */
+.section-row-icon{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.aside-container{
+    display: flex;
+}
 
 
 

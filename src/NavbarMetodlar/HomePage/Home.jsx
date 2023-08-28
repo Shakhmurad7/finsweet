@@ -18,6 +18,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import Accardion from "./Accardion"
+import AsideData from "./AsideData"
 
 
 
@@ -196,6 +197,7 @@ const Home =()=>{
                         </div>
                     </div>
 
+                    {/* ---section--- */}
                     <section>
                         <div className="sectin-conrainer">
                             <div className="section-left">
@@ -222,6 +224,14 @@ const Home =()=>{
                         </div>
                     </section>
 
+
+                    {/* ----aside---- */}
+                    <aside>
+                        <div className="aside-top-text">
+                            <h2>Our blog</h2>
+                            <AsideData/>
+                        </div>
+                    </aside>
 
                  </div>
                  
