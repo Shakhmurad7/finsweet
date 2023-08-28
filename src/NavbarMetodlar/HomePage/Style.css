@@ -398,7 +398,6 @@ nav{
 }
 .section-right{
     width: 100%;
-    max-width:600px;
     background-color: #1C1E53;
 }
 .sectin-conrainer{
@@ -449,14 +448,38 @@ nav{
 
 
 /* ----section---- */
+aside{
+    padding: 50px 0;
+}
 .section-row-icon{
+    cursor: pointer;
     display: flex;
     gap: 10px;
     align-items: center;
 }
 .aside-container{
+    padding: 50px 0;
     display: flex;
+    gap: 50px;
 }
+.aside-card img{
+    width: 100%;
+}
+.aside-card{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width:100%;
+    max-width: 400px;
+}
+.aside-top-text-h2{
+    font-size: 2rem;
+}
+.aside-container-text{
+    color: 
+    #282938;
+}
+
 
 
 

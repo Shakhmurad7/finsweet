@@ -228,7 +228,7 @@ const Home =()=>{
                     {/* ----aside---- */}
                     <aside>
                         <div className="aside-top-text">
-                            <h2>Our blog</h2>
+                            <h2 className="aside-top-text-h2">Our blog</h2>
                             <AsideData/>
                         </div>
                     </aside>

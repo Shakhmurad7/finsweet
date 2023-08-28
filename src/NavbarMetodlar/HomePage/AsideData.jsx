@@ -28,23 +28,27 @@ function AsideData() {
   ];
   return(
     <>
+    <div className="aside-container">
+
     {
         asidedata.map(({item , img , text ,text2 , date})=>{
             return(
-
+                
                 <div className="aside-card">
             <img src={`../../src/assets/img/${img}`} />
-            <p>{date}</p>
+            <p className="aside-container-text">{date}</p>
             <h2>{item}</h2>
-            <p>{text}</p>
+            <p className="aside-container-text">{text}</p>
             <div className="section-row-icon">
               <p>{text2}</p>
               <i class="fa-solid fa-arrow-right"></i>
             </div>
           </div>
         )
-        })
-    }
+    })
+}
+
+</div>
     </>
   )
 
