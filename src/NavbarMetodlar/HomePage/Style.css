@@ -321,6 +321,63 @@ nav{
     font-size: 25px !important;
 }
 
+/* ----accardion---- */
+.accardion-container{
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.accardion-left{
+    width: 100%;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.accardion-right{
+    cursor: pointer;
+    width: 100%;
+    max-width: 700px;
+}
+.accardion-right-row{
+    display: flex;
+    gap: 25px;
+    align-items: baseline;
+}
+.accardion-big-row{
+    display: flex;
+    gap: 20px;
+}
+.accardion-right-row h3{
+    font-size: 24px;
+    color: #2405F2;
+}
+.accardion-right-row-active p{
+    height: 100%;
+}
+.accardion-right-row-text-active p{
+    transition: .8s;
+    height: auto;
+    padding: 10px 0;
+}
+.accardion-right-big-row span{
+    font-size: 25px;
+    
+}
+.accardion-right-big-row{
+    display: flex;
+    justify-content: space-between;
+}
+.accardion-right-text{
+    display: flex;
+    flex-direction:column;
+    gap: 25px;
+}
+.accardion-right-row-text p{
+    transition: .8s;
+    overflow: hidden;
+    height: 0;
+}
 
 /* ---Footer---- */
 footer{

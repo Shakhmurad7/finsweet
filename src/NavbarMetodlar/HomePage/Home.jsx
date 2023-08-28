@@ -16,6 +16,8 @@ import imgSwiper from '../../assets/img/woman-in-collared-shirt-774909.svg'
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
+import Accardion from "./Accardion"
+
 
 
 
@@ -180,6 +182,17 @@ const Home =()=>{
                             </div>
                                         </div></SwiperSlide>
                         </Swiper>
+                    </div>
+
+
+                    <div className="accardion-container">
+                        <div className="accardion-left">
+                            <h2>Frequently asked questions</h2>
+                            <p>Contact us for more info</p>
+                        </div>
+                        <div className="accardion-right">
+                            <Accardion/>
+                        </div>
                     </div>
                  </div>
                  
