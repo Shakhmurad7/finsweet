@@ -1,4 +1,5 @@
 import { useState } from "react"
+import { Link } from "react-router-dom"
 const Header =()=>{
     const [menu , setmenu] = useState(false)
     return(
@@ -14,15 +15,15 @@ const Header =()=>{
 
                     <div className={`header-top-right ${menu? `header-top-right`:`active`}`}>
                         <ul>
-                            <a href={'/'}><li>Home</li></a>
-                            <a href={'/About'}><li>About</li></a>
-                            <a href={'/'}><li>Features</li></a>
-                            <a href={'/'}><li>Pricing</li></a>
-                            <a href={'/'}><li>FAQ</li></a>
-                            <a href={'/'}><li>Blog</li></a>
+                            <Link to={'/'}><li>Home</li></Link>
+                            <Link to={'/About'}><li>About</li></Link>
+                            <Link to={'/'}><li>Features</li></Link>
+                            <Link to={'/'}><li>Pricing</li></Link>
+                            <Link to={'/'}><li>FAQ</li></Link>
+                            <Link to={'/'}><li>Blog</li></Link>
                         </ul>
 
-                        <a className="tage-a" href={"/Contact"}>Contact</a>
+                        <Link  className="tage-a" to={"/Contact"}>Contact</Link>
                     </div>
 
                         <div className="menu-icon" onClick={()=> setmenu(!menu)}>
