@@ -1,5 +1,6 @@
-
+import { useState } from "react"
 const Header =()=>{
+    const [menu , setmenu] = useState(false)
     return(
         <>
             <header>
@@ -11,7 +12,7 @@ const Header =()=>{
                         <h2>Finsweet </h2>
                     </div>
 
-                    <div className="header-top-right">
+                    <div className={`header-top-right ${menu? `header-top-right`:`active`}`}>
                         <ul>
                             <a href={'/'}><li>Home</li></a>
                             <a href={'/About'}><li>About</li></a>
@@ -23,6 +24,11 @@ const Header =()=>{
 
                         <a className="tage-a" href={"/Contact"}>Contact</a>
                     </div>
+
+                        <div className="menu-icon" onClick={()=> setmenu(!menu)}>
+                            {menu ? <i class="fa-solid fa-xmark"></i> :<i class="fa-solid fa-bars"></i>}
+                            
+                        </div>
                 </div>
 
 

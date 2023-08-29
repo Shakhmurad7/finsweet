@@ -24,7 +24,9 @@ import AsideData from "./AsideData"
 
 
 
+
 const Home =()=>{
+
 
     return(
         <>
