@@ -623,6 +623,10 @@ footer {
     .header-top-right{
         gap: 0;
     }
+    .tage-a:hover{
+        color: white;
+        background-color: transparent;
+    }
     .tage-a{
         padding: 10px;
         border: none;
