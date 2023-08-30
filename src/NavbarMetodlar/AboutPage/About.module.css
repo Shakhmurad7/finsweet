@@ -98,6 +98,11 @@ body {
     justify-content: space-between;
     gap: 40px;
 }
+.section-center-container{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
 .section-center-left{
     display: flex;
     flex-direction: column;
