@@ -3,9 +3,11 @@ import data from './data'
 function HomeCard() {
   return (
     <>
+    
    
    <div className="Card-container">
         {
+          
             data.map(({id , imge , text, item})=>{
                 return(
 
