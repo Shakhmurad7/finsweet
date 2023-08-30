@@ -184,6 +184,76 @@ const About = () => {
             <img src={"./img/Logo 5.png"} />
           </div>
         </div>
+
+        <aside>
+          <div className="Big-container">
+            <div className={styles["aside-top-text"]}>
+              <h2>Meet our team</h2>
+            </div>
+            <div className={styles["aside-team-container"]}>
+              <div className={styles["aside-team-block"]}>
+                <div className={styles["aside-img"]}>
+                  <img
+                    src={
+                      "./img/man-in-black-suit-holding-a-calling-card-3785104.png"
+                    }
+                  />
+                  <div className={styles["aside-hover"]}>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                  </div>
+                </div>
+                <h2>John Smith</h2>
+                <p>CEO</p>
+              </div>
+              <div className={styles["aside-team-block"]}>
+                <div className={styles["aside-img"]}>
+                  <img
+                    src={
+                      "./img/man-in-white-shirt-wearing-blue-bucket-hat-6626874.png"
+                    }
+                  />
+                  <div className={styles["aside-hover"]}>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                  </div>
+                </div>
+                <h2>Simon Adams</h2>
+                <p>CTO</p>
+              </div>
+              <div className={styles["aside-team-block"]}>
+                <div className={styles["aside-img"]}>
+                  <img src={"./img/serious-man-3760373.png"} />
+                  <div className={styles["aside-hover"]}>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                  </div>
+                </div>
+                <h2>Paul Jones</h2>
+                <p>Design Lead</p>
+              </div>
+              <div className={styles["aside-team-block"]}>
+                <div className={styles["aside-img"]}>
+                  <img
+                    src={
+                      "./img/transgender-model-touching-forehead-in-neon-light-7613875.png "
+                    }
+                  />
+                  <div className={styles["aside-hover"]}>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                  </div>
+                </div>
+                <h2>Sara Hardin </h2>
+                <p>Project Manager</p>
+              </div>
+            </div>
+          </div>
+        </aside>
       </PageContainer>
     </>
   );
