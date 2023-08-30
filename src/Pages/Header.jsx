@@ -10,7 +10,7 @@ const Header =()=>{
                 <div className="header-container">
 
                     <div className="header-top-left">
-                        <h2>Finsweet </h2>
+                        <Link to={'/'}><h2>Finsweet</h2></Link> 
                     </div>
 
                     <div className={`header-top-right ${menu? `header-top-right`:`active`}`}>

@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 const Footer =()=>{
     return(
         <>
@@ -5,7 +7,7 @@ const Footer =()=>{
                 <div className="Big-container">
                     <div className="footer-container">
                         <div className="footer-left">
-                            <h2>Finsweet</h2>
+                           <Link to={'/'}><h2>Finsweet</h2></Link> 
                             <p>We are always open to discuss your project and improve your online presence.</p>
 
                             <div className="footer-bottom">
@@ -26,7 +28,10 @@ const Footer =()=>{
                             <p>We are always open to discuss your project, improve your online presence and help with your UX/UI design challenges.</p>
 
                             <div className="footer-icon">
-
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-linkedin"></i>
                             </div>
                         </div>
                     </div>
