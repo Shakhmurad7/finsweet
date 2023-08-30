@@ -11,7 +11,7 @@ function HomeCard() {
                 return(
 
                         <div className="card">
-                            <img src={`../src/assets/img/${imge}`} />
+                            <img src={`src/assets/img/${imge}`} />
                             <h2>{item}</h2>
                             <p>{text}</p>
                         </div>
