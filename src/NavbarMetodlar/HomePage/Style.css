@@ -377,7 +377,7 @@ nav {
 }
 .accardion-right-row-text p {
   transition: 0.5s;
-  overflow: hidden;
+  overflow: hidden; 
   height: 0;
 }
 
