@@ -35,7 +35,7 @@ function AsideData() {
             return(
                 
                 <div className="aside-card">
-            <img src={`../../src/assets/img/${img}`} />
+            <img src={`/img/${img}`} />
             <p className="aside-container-text">{date}</p>
             <h2>{item}</h2>
             <p className="aside-container-text">{text}</p>
