@@ -3,6 +3,7 @@ import Home from "./NavbarMetodlar/HomePage/Home"
 import About from "./NavbarMetodlar/AboutPage/About"
 import Contact from "./NavbarMetodlar/ContactPage/Contact"
 import Features from "./NavbarMetodlar/Features/Features"
+import Pricing from "./NavbarMetodlar/Pricing/Pricing"
 
 
 
@@ -14,6 +15,7 @@ function App() {
         <Route path="/Contact" element={<Contact/>}/>
         <Route path="/About" element={<About/>}/>
         <Route path="/Features" element={<Features/>}/>
+        <Route path="/Pricing" element={<Pricing/>}/>
       </Routes>
     </>
   )
