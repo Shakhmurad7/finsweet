@@ -1,5 +1,4 @@
 import PageContainer from "../../PageContainer";
-import data from "../HomePage/data";
 import styles from "./About.module.css";
 import AboutCard from "./AboutCard";
 import LogoIcon from "./LogoIcon";
@@ -56,6 +55,8 @@ const About = () => {
           </div>
         </div>
 
+
+{/* ----sectirn----- */}
         <section>
           <div className={styles["Big-container"]}>
             <div className={styles["section-top"]}>
@@ -157,10 +158,14 @@ const About = () => {
 
         </section>
 
+
+{/* ----logoicon---- */}
         <div className="Big-container">
                 <LogoIcon/>
         </div>
 
+
+{/* ----Team---- */}
         <aside>
           <div className="Big-container">
             <div className={styles["aside-top-text"]}>

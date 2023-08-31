@@ -1,10 +1,10 @@
 import React from 'react'
 import PageContainer from '../../PageContainer'
 import style from './Features.module.css'
-import styles from '../AboutPage/About.module.css'
 import LogoIcon from '../AboutPage/LogoIcon'
 import AboutCard from '../AboutPage/AboutCard'
 import Accardion from '../HomePage/Accardion'
+import styles from "../AboutPage/About.module.css";
 
 function Features() {
   return (
@@ -45,6 +45,91 @@ function Features() {
     {/* ---AboutCard--- */}
         <AboutCard/>
 
+
+{/* ----Section-card----- */}
+    <div className={styles["section-center"]}>
+            <div className="Big-container">
+              <div className={styles["section-center-container"]}>
+                <div className={styles["section-center-row"]}>
+                  <div className={styles["section-center-left"]}>
+                    <h3>Use Client-first </h3>
+                    <h2>Top agencies and freelancers around the world use Client-first</h2>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                  </div>
+                  <div className={styles["section-center-right"]}>
+                    <img
+                      src={"./img/man-explaining-problems-to-faceless-psychologist-7176030.png"}
+                    />
+                  </div>
+                </div>
+
+                <div className={styles["section-center-row"]}>
+                  <div className={styles["section-center-right"]}>
+                    <img
+                      src={"./img/a-man-working-in-a-call-center-8867431.png"}
+                    />
+                  </div>
+                  <div className={styles["section-center-left"]}>
+                    <h3>Free Revision Rounds </h3>
+                    <h2>Get free Revisions and one week of free maintenance</h2>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+    <div className={styles["section-center"]}>
+            <div className="Big-container">
+              <div className={styles["section-center-container"]}>
+                <div className={styles["section-center-row"]}>
+                  <div className={styles["section-center-left"]}>
+                    <h3>24/7 Support</h3>
+                    <h2>Working with us, you will be getting 24/7 priority support</h2>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                  </div>
+                  <div className={styles["section-center-right"]}>
+                    <img
+                      src={"./img/photo-of-man-holding-a-book-927022.png"}
+                    />
+                  </div>
+                </div>
+
+                <div className={styles["section-center-row"]}>
+                  <div className={styles["section-center-right"]}>
+                    <img
+                      src={"./img/person-using-macbook-pro-3861964.png"}
+                    />
+                  </div>
+                  <div className={styles["section-center-left"]}>
+                    <h3>Quick Delivery</h3>
+                    <h2>Guranteed 1 week delivery for standard five pager website</h2>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
 
     {/* ---Accardion---- */}
     <div className="Big-container">
