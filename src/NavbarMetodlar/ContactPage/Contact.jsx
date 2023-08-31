@@ -1,10 +1,47 @@
 import PageContainer from "../../PageContainer"
+import style from "./Contact.module.css"
 
 const Contact =()=>{
     return(
         <>
           <PageContainer>
-            <h1>Contact</h1>
+            <div className={style["content-top-text"]}>
+              <h2>Contact Us</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+            </div>
+
+          <div className={style["Big-content-container"]}>
+
+            <div className={style["container-content"]}>
+                <div className={style["content-row"]}>
+                    <div className={style["content-input"]}>
+                      <h3>Name</h3>
+                      <input type="text" placeholder="Enter your name"/>
+                    </div>
+                    <div className={style["content-input"]}>
+                      <h3>Email</h3>
+                      <input type="email" placeholder="Enter your Emial"/>
+                    </div>
+                </div>
+                <div className={style["content-row"]}>
+                    <div className={style["content-input"]}>
+                      <h3>Subject</h3>
+                      <input type="text" placeholder="Provide context"/>
+                    </div>
+                    <div className={style["content-input"]}>
+                      <h3>Subject</h3>
+                      <input type="text" placeholder="Select Subject"/>
+                    </div>
+                </div>
+                <div className={style["textarea"]}>
+                    <h3>Subject</h3>
+                     <textarea name="" id="" cols="10" rows="7" placeholder="Write your  question here">
+
+                    </textarea>
+                </div>
+                <a href="">Send Messege</a>
+            </div>
+          </div>
           </PageContainer>
            
         </>
