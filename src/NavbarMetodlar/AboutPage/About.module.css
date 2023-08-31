@@ -3,6 +3,7 @@ body {
   padding: 0;
 }
 * {
+  font-family: "Poppins", sans-serif;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -178,8 +179,6 @@ body {
   gap: 40px;
   justify-content: space-between;
 }
-
-
 .aside-img{
   height: 170px;
   border-radius: 50%;

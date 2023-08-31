@@ -1,6 +1,8 @@
 import PageContainer from "../../PageContainer";
 import data from "../HomePage/data";
 import styles from "./About.module.css";
+import AboutCard from "./AboutCard";
+import LogoIcon from "./LogoIcon";
 
 const About = () => {
   return (
@@ -151,38 +153,12 @@ const About = () => {
             </div>
           </div>
 
-          <div className={styles["section-end"]}>
-            <div className={styles["section-end-top-text"]}>
-              <h2>The benefits of working with us</h2>
-            </div>
-            <div className="section-end-card">
-              <div className="Card-container">
-                {data.slice(0, 3).map(({ id, imge, text, item }) => {
-                  return (
-                    <div className={styles["card-about"]}>
-                      <img src={`/img/${imge}`} />
-                      <h2>{item}</h2>
-                      <p>{text}</p>
-                    </div>
-                  );
-                })}
-              </div>
-            </div>
-          </div>
+          <AboutCard/>
+
         </section>
 
         <div className="Big-container">
-          <div className={styles["page-container"]}>
-            <div className={styles["page-row"]}>
-              <h2>100.000+</h2>
-              <p>Finsweet Users</p>
-            </div>
-            <img src={"./img/Logo 1.png"} />
-            <img src={"./img/Logo 2.png"} />
-            <img src={"./img/Logo 3.png"} />
-            <img src={"./img/Logo 4.png"} />
-            <img src={"./img/Logo 5.png"} />
-          </div>
+                <LogoIcon/>
         </div>
 
         <aside>

@@ -92,7 +92,7 @@ nav {
 .nav-left h2 {
   font-size: 3rem;
   width: 100%;
-  max-width: 350px;
+  max-width: 400px;
 }
 .nav-right img {
   width: 100%;
@@ -569,6 +569,10 @@ footer {
 }
 .menu-icon {
   display: none;
+}
+
+.header-top-right a.active{
+  opacity: 0.6;
 }
 
 @media (max-width: 1320px) {

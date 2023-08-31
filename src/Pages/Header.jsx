@@ -1,9 +1,19 @@
 import { useState } from "react"
 import { Link } from "react-router-dom"
+import { NavLink } from "react-router-dom";
 const Header =()=>{
     const [menu , setmenu] = useState(false)
     return(
-        <>
+        <> 
+
+<NavLink
+  to="/"
+  className={({ isActive, isPending }) =>
+    isPending ? "pending" : isActive ? "active" : ""
+  }
+>
+  Messages
+</NavLink>;
             <header>
                 <div className="Big-container">
 
@@ -15,12 +25,12 @@ const Header =()=>{
 
                     <div className={`header-top-right ${menu? `header-top-right`:`active`}`}>
                         <ul>
-                            <Link to={'/'}><li>Home</li></Link>
-                            <Link to={'/About'}><li>About</li></Link>
-                            <Link to={'/'}><li>Features</li></Link>
-                            <Link to={'/'}><li>Pricing</li></Link>
-                            <Link to={'/'}><li>FAQ</li></Link>
-                            <Link to={'/'}><li>Blog</li></Link>
+                            <NavLink to={'/'}><li>Home</li></NavLink>
+                            <NavLink to={'/About'}><li>About</li></NavLink>
+                            <NavLink to={'/Features'}><li>Features</li></NavLink>
+                            <NavLink to={'/'}><li>Pricing</li></NavLink>
+                            <NavLink to={'/'}><li>FAQ</li></NavLink>
+                            <NavLink to={'/'}><li>Blog</li></NavLink>
                         </ul>
 
                         <Link  className="tage-a" to={"/Contact"}>Contact</Link>
