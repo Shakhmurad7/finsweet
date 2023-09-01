@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import PageContainer from "../../PageContainer";
 import style from "./Work.module.css";
-import WorkCard from "./WorkCard";
 
 const Worldata = [
   {
@@ -138,6 +137,13 @@ function Work() {
             })}
           </div>
         </div>
+      </div>
+
+
+      <div className={style["section-end"]}>
+        <h2>Let's build something great together</h2>
+        <p>Nullam vitae purus at tortor mattis dapibus. Morbi purus est, ultricies nec dolor sit amet, scelerisque cursus purus.</p>
+        <a href={"/Contact"}>Contact Us</a>
       </div>
     </PageContainer>
   );

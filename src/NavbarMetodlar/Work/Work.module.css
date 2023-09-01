@@ -55,3 +55,27 @@
 .h3-element-active{
     color: blue;
 }
+.section-end{
+    padding: 80px 0 ;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.section-end a{
+    padding: 10px 40px ;
+    background-color: #FCD980;
+    color: black;
+    border-radius: 20px;
+}
+.section-end p {
+    width: 100%;
+    max-width: 600px;
+}
+.section-end h2{
+    font-weight:bold;
+    font-size: 2.5rem;
+    width: 100%;
+    max-width: 600px;
+}
