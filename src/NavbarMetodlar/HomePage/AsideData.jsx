@@ -40,7 +40,7 @@ function AsideData() {
             <h2>{item}</h2>
             <p className="aside-container-text">{text}</p>
             <div className="section-row-icon">
-              <p>{text2}</p>
+              <a href={'/Blog'}><p>{text2}</p></a>
               <i class="fa-solid fa-arrow-right"></i>
             </div>
           </div>

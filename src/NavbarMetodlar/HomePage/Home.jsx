@@ -26,7 +26,7 @@ const Home = () => {
                 eiusmod tempor.
               </p>
               <div className="content-left-row">
-                <h4>Get in touch with us</h4>
+                <a href={"/Contact"}><h4>Get in touch with us</h4></a>
                 <i class="fa-solid fa-arrow-right"></i>
               </div>
             </div>
@@ -76,7 +76,7 @@ const Home = () => {
             <div className="project-top-text">
               <h2>View our projects</h2>
               <div className="project-top-text-row">
-                <p>View More</p>
+                <a href={"/Work"}><p>View More</p></a>
                 <i class="fa-solid fa-arrow-right"></i>
               </div>
             </div>
@@ -91,7 +91,7 @@ const Home = () => {
                     aliqua
                   </p>
                   <div className="project-block-row-icon">
-                    <p>View project</p>
+                    <a href={"/Work"}><p>View More</p></a>
                     <i class="fa-solid fa-arrow-right"></i>
                   </div>
                 </div>
@@ -102,7 +102,7 @@ const Home = () => {
                   <div className="project-on-right-block">
                     <h2>Unisaas Website Design</h2>
                     <div className="project-block-row-icon">
-                      <p>View project</p>
+                      <a href={"/Work"}><p>View More</p></a>
                       <i class="fa-solid fa-arrow-right"></i>
                     </div>
                   </div>
@@ -249,7 +249,7 @@ const Home = () => {
                   <button>Send an Inquiry</button>
                 </div>
                 <div className="section-right-row">
-                  <p>Get in touch with us</p>
+                  <a href={"/Contact"}><p>Get in touch with us</p></a>
                   <i class="fa-solid fa-arrow-right"></i>
                 </div>
               </div>

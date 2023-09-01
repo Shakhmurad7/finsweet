@@ -115,6 +115,9 @@ nav {
   gap: 10px;
   align-items: center;
 }
+.nav-left-icon-row h4{
+  color: white;
+}
 /* ---content---- */
 .content {
   padding: 50px 0;
@@ -201,6 +204,9 @@ nav {
   width: 100%;
   max-width: 350px;
   top: 0;
+}
+.project-block-row-icon p{
+  color: #fcd980;
 }
 .project-block-row-icon {
   padding-top: 20px;
@@ -426,6 +432,9 @@ nav {
   gap: 10px;
   width: 100%;
 }
+.section-right-row p{
+  color: white;
+}
 .section-right-row {
   margin-top: 15px;
   cursor: pointer;
@@ -455,6 +464,9 @@ nav {
 /* ----section---- */
 aside {
   padding: 50px 0;
+}
+.section-row-icon p{
+  color: black;
 }
 .section-row-icon {
   cursor: pointer;

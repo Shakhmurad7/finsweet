@@ -11,9 +11,9 @@ const Navbar = () => {
                 eiusmod tempor incididunt.
               </p>
               <div className="nav-left-row">
-                <h3>View our work</h3>
+                <a href={"/Work"}><h3>View our work</h3></a>
                 <div className="nav-left-icon-row">
-                  <h4>View Pricing</h4>
+                 <a href={"/Pricing"}><h4>View Pricing</h4></a> 
                   <i class="fa-solid fa-arrow-right"></i>
                 </div>
               </div>
