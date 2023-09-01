@@ -4,6 +4,7 @@ import About from "./NavbarMetodlar/AboutPage/About"
 import Contact from "./NavbarMetodlar/ContactPage/Contact"
 import Features from "./NavbarMetodlar/Features/Features"
 import Pricing from "./NavbarMetodlar/Pricing/Pricing"
+import Work from "./NavbarMetodlar/Work/Work"
 
 
 
@@ -16,6 +17,7 @@ function App() {
         <Route path="/About" element={<About/>}/>
         <Route path="/Features" element={<Features/>}/>
         <Route path="/Pricing" element={<Pricing/>}/>
+        <Route path="/Work" element={<Work/>}/>
       </Routes>
     </>
   )

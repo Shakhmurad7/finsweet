@@ -31,6 +31,7 @@ const Header =()=>{
                             <NavLink to={'/Pricing'}><li>Pricing</li></NavLink>
                             <NavLink to={'/'}><li>FAQ</li></NavLink>
                             <NavLink to={'/'}><li>Blog</li></NavLink>
+                            <NavLink to={'/Work'}><li>Work</li></NavLink>
                         </ul>
 
                         <Link  className="tage-a" to={"/Contact"}>Contact</Link>

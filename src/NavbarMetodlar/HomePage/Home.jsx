@@ -88,7 +88,7 @@ const Home = () => {
                   <h2>Workhub office Webflow Webflow Design</h2>
                   <p>
                     Euismod faucibus turpis eu gravida mi. Pellentesque et velit
-                    aliquam{" "}
+                    aliqua
                   </p>
                   <div className="project-block-row-icon">
                     <p>View project</p>
@@ -108,7 +108,7 @@ const Home = () => {
                   </div>
                 </div>
                 <div className="projecr-block1">
-                  <img src={`/img/Card (1).png"`} />
+                  <img src={`/img/Card (1).png`} />
                 </div>
               </div>
             </div>
