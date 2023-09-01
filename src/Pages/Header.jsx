@@ -5,15 +5,6 @@ const Header =()=>{
     const [menu , setmenu] = useState(false)
     return(
         <> 
-
-<NavLink
-  to="/"
-  className={({ isActive, isPending }) =>
-    isPending ? "pending" : isActive ? "active" : ""
-  }
->
-  Messages
-</NavLink>;
             <header>
                 <div className="Big-container">
 
