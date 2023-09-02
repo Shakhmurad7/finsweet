@@ -7,11 +7,43 @@
     align-items: center;
 }
 .BlogPage-text-top img{
-    margin-top: 30px;
+    margin: 30px 0;
 }
 .BlogPage-text-top h2{
     font-weight: 900;
     font-size: 2.5rem;
     width: 100%;
     max-width: 700px;
+}
+.BlogPage-text-top p{
+    width: 100%;
+    max-width: 700px;
+}
+.BlogPage-Card{
+    width: 100%;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.BlogPage-container{
+    padding: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
+}
+.blogpage-h2{
+    text-align: center;
+    font-size: 2.5rem;
+}
+.blogpage-icon{
+    transition: .5s;
+    cursor: pointer;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.blogpage-icon:hover{
+    gap: 20px;
 }
