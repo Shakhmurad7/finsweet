@@ -1,0 +1,17 @@
+.BlogPage-text-top{
+    text-align: center;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+.BlogPage-text-top img{
+    margin-top: 30px;
+}
+.BlogPage-text-top h2{
+    font-weight: 900;
+    font-size: 2.5rem;
+    width: 100%;
+    max-width: 700px;
+}

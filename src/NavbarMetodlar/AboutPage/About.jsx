@@ -20,7 +20,7 @@ const About = () => {
             </div>
             <div className={styles[`content-right`]}>
               <img
-                src={"public/img/group-of-people-sitting-indoors-3184360.png"}
+                src={"./img/group-of-people-sitting-indoors-3184360.png"}
               />
             </div>
           </div>
