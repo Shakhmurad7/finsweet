@@ -1,0 +1,30 @@
+.Container{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 50px 200px;
+}
+.block{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.block ul{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.block ul li{
+    position: relative;
+}
+.block ul li::after{
+    position: absolute;
+    top: 10px;
+    background-color: rgba(0, 0, 0, 0.659);
+    left: -20px;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    content: "";
+}

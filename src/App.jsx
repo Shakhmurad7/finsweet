@@ -6,6 +6,7 @@ import Features from "./NavbarMetodlar/Features/Features"
 import Pricing from "./NavbarMetodlar/Pricing/Pricing"
 import Work from "./NavbarMetodlar/Work/Work"
 import Blog from "./NavbarMetodlar/Blog/Blog"
+import Single from "./NavbarMetodlar/Blog-Single/Single"
 
 
 
@@ -20,6 +21,7 @@ function App() {
         <Route path="/Pricing" element={<Pricing/>}/>
         <Route path="/Work" element={<Work/>}/>
         <Route path="/Blog" element={<Blog/>}/>
+        <Route path="/Single" element={<Single/>}/>
       </Routes>
     </>
   )
