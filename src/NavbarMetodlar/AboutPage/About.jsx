@@ -8,7 +8,7 @@ const About = () => {
     <>
       <PageContainer>
         <div className="Big-container">
-          <div className={styles.content}>
+          <div className={styles['content']}>
             <div className={styles["content-left"]}>
               <h3>About us</h3>
               <h2>Our designs solve problems</h2>
@@ -58,7 +58,8 @@ const About = () => {
 
 {/* ----sectirn----- */}
         <section>
-          <div className={styles["Big-container"]}>
+          <div className="Big-container">
+
             <div className={styles["section-top"]}>
               <h2 className={styles["section-top-h2"]}>
                 The process we follow
@@ -111,6 +112,7 @@ const About = () => {
               </div>
             </div>
           </div>
+          
 
           <div className={styles["section-center"]}>
             <div className="Big-container">

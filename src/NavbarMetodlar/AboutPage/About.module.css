@@ -94,6 +94,7 @@ body {
   padding: 70px 0;
 }
 .section-center-row {
+
   display: flex;
   justify-content: space-between;
   gap: 40px;
@@ -104,6 +105,7 @@ body {
   gap: 80px;
 }
 .section-center-left {
+  order: 1;
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -146,6 +148,7 @@ body {
 
 /* ----page---- */
 .page-container {
+  flex-wrap: wrap;
   padding: 50px 0;
   display: flex;
   justify-content: center;
@@ -174,10 +177,12 @@ body {
   padding: 5px 0px;
 }
 .aside-team-container {
+  justify-content: center;
+  flex-wrap: wrap;
   padding: 50px 0;
   display: flex;
-  gap: 40px;
-  justify-content: space-between;
+  gap: 80px;
+
 }
 .aside-img{
   height: 170px;
@@ -207,4 +212,31 @@ body {
   padding-bottom: 20px;
   cursor: pointer;
   height: 100%;
+}
+
+@media(max-width:992px){
+  .section-center-row{
+    flex-direction: column;
+    align-items: center;
+  }
+  .section-block-container{
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .content-container-bottom{
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+  }
+  .content-bottom img{
+    display: none;
+  }
+  .content{
+    align-items: center;
+  }
+}
+@media(max-width:738px){
+  .content{
+   flex-direction: column;
+  }
 }
