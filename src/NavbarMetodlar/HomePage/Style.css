@@ -109,7 +109,24 @@ nav {
   border-radius: 20px;
   background-color: #fcd980;
 }
+.nav-left-icon-row:hover i,
+.content-left-row:hover i,
+.project-top-text-row:hover i ,
+.project-block-row-icon:hover i ,
+.section-right-row:hover i ,
+.section-row-icon:hover i
+{
+  position: relative;
+  animation: myanim 2s infinite;
+}
+@keyframes myanim{
+  0% {left: 0px;}
+  50% {left: 10px;}
+  100% {left: 0px;}
+}
+
 .nav-left-icon-row {
+  transition: .5s;
   cursor: pointer;
   display: flex;
   gap: 10px;
@@ -247,7 +264,10 @@ nav {
   padding: 50px 0;
   background-color: #e4ebff;
 }
-
+.card:hover{
+  background-color: #b4c6f9;
+  transform:translateY(-10px);
+}
 .Card-container {
   justify-content: center;
   gap: 30px;
@@ -258,6 +278,8 @@ nav {
   padding: 10px 0px;
 }
 .card {
+  cursor: pointer;
+  transition: .4s;
   background-color: white;
   padding: 30px;
   width: 100%;

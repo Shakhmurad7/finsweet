@@ -1,4 +1,7 @@
+import Work from "../NavbarMetodlar/Work/Work";
+
 const Navbar = () => {
+
   return (
     <>
       <nav>
@@ -11,7 +14,7 @@ const Navbar = () => {
                 eiusmod tempor incididunt.
               </p>
               <div className="nav-left-row">
-                <a href={"/Work"}><h3>View our work</h3></a>
+                <a href={"./Work"}> <h3> View our work</h3> </a>
                 <div className="nav-left-icon-row">
                  <a href={"/Pricing"}><h4>View Pricing</h4></a> 
                   <i class="fa-solid fa-arrow-right"></i>
