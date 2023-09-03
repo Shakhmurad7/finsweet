@@ -8,6 +8,7 @@ import Work from "./NavbarMetodlar/Work/Work"
 import Blog from "./NavbarMetodlar/Blog/Blog"
 import Single from "./NavbarMetodlar/Blog-Single/Single"
 import FAQ from "./NavbarMetodlar/Faq/FAQ"
+import WorkSingle from "./NavbarMetodlar/Work/WorkSingle"
 
 
 
@@ -21,6 +22,7 @@ function App() {
         <Route path="/Features" element={<Features/>}/>
         <Route path="/Pricing" element={<Pricing/>}/>
         <Route path="/Work" element={<Work/>}/>
+        <Route path="/Work/:id" element={<WorkSingle/>}/>
         <Route path="/Blog" element={<Blog/>}/>
         <Route path="/Single" element={<Single/>}/>
         <Route path="/Faq" element={<FAQ/>}/>

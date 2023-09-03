@@ -125,13 +125,18 @@ function Work() {
           </div>
 
           <div className={style["section-container-block"]}>
-            {filteredData.map(({ item, text, img, title }) => {
+            {filteredData.map(({ item, text, img, title , id}) => {
               return (
                 <div className={style["Work-block"]}>
                   <img src={`./img/${img}`} />
                   <h2>{item}</h2>
                   <p>{text}</p>
+                  <a href={`/Work/${id}`}>
+                  <div className={style["section-row-icon"]}>
                   <p className={style["p-element"]}> {title}</p>
+                  <i class="fa-solid fa-arrow-right"></i>
+                  </div>
+                  </a>
                 </div>
               );
             })}
