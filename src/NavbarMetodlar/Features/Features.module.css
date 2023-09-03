@@ -14,3 +14,6 @@ body{
 .nav-left-row-icon{
     display: none;
 }
+.section-center-row h2{
+    font-size: 30px;
+}

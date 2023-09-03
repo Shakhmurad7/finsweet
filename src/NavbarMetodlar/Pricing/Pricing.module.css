@@ -99,3 +99,13 @@ body{
     #282938;
     color: white;
 }
+@media(max-width:1110px){
+    .section-container{
+        flex-wrap: wrap;
+    }
+}
+@media(max-width:932px){
+    .section-container{
+        justify-content: center;
+    }
+}
