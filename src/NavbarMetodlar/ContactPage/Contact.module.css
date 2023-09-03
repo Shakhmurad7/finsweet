@@ -24,6 +24,9 @@ body {
     width: 100%;
     max-width: 500px;
 }
+.Big-content-container{
+    margin: 20px;
+}
 .container-content{
     margin: 50px 0;
     border-radius: 10px;
@@ -75,4 +78,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+@media(max-width:560px){
+    .content-row{
+        flex-direction: column;
+    }
+    .container-content{
+        padding: 20px;
+    }
 }

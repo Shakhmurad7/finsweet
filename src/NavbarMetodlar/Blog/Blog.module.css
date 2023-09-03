@@ -47,3 +47,14 @@
 .blogpage-icon:hover{
     gap: 20px;
 }
+.BlogPage-text-top img{
+    width: 100%;
+    min-height: 250px;
+    height: 100%;
+    object-fit: cover;
+}
+@media(max-width:750px){
+    .BlogPage-text-top h2{
+        font-size: 28px;
+    }
+}

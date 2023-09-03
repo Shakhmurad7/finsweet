@@ -31,3 +31,13 @@
     border-radius: 50%;
     content: "";
 }
+@media(max-width:900px){
+    .Container{
+        padding:50px;
+    }
+}
+@media(max-width:520px){
+    .Container{
+        padding:10px;
+    }
+}
