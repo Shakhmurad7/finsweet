@@ -5,12 +5,13 @@ import LogoIcon from '../AboutPage/LogoIcon'
 import AboutCard from '../AboutPage/AboutCard'
 import Accardion from '../HomePage/Accardion'
 import styles from "../AboutPage/About.module.css";
+import { Link } from 'react-router-dom'
 
 function Features() {
   return (
     <PageContainer>
 
-        {/* ---NavBar--- */}
+        ---NavBar---
         <div className={style['Navbar']}>
         <nav>
         <div className="Big-container">
@@ -46,7 +47,7 @@ function Features() {
         <AboutCard/>
 
 
-{/* ----Section-card----- */}
+ {/* ----Section-card----- */}
     <div className={styles["section-center"]}>
             <div className="Big-container">
               <div className={styles["section-center-container"]}>
@@ -129,7 +130,7 @@ function Features() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> 
 
     {/* ---Accardion---- */}
     <div className="Big-container">
@@ -142,7 +143,7 @@ function Features() {
               <Accardion />
             </div>
     </div>
-    </div>
+    </div> 
 
     </PageContainer>
   )

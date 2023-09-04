@@ -145,6 +145,8 @@
     max-width: 800px;
   }
   .container-bottom-block{
+    gap: 30px;
+    flex-wrap: wrap;
     height: auto;
     display: flex;
     justify-content: space-between;
@@ -157,3 +159,19 @@
     flex-direction: column;
     gap:7px;
   }
+  @media(max-width:780px){
+    .container-bottom-block{
+        justify-content: center;
+    }
+    .Container-Work{
+        padding: 50px;
+    }
+  }
+  @media(max-width:380px){
+    .container-bottom-block{
+        justify-content: flex-start;
+    }
+    .Container-Work{
+        padding: 20px;
+    }
+}
