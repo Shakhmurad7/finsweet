@@ -10,6 +10,7 @@ import Accardion from "./Accardion";
 import AsideData from "./AsideData";
 import HomeCard from "./HomeCard";
 import "./Style.css";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -26,7 +27,7 @@ const Home = () => {
                 eiusmod tempor.
               </p>
               <div className="content-left-row">
-                <a href={"/Contact"}><h4>Get in touch with us</h4></a>
+                <Link to={"/Contact"}><h4>Get in touch with us</h4></Link>
                 <i class="fa-solid fa-arrow-right"></i>
               </div>
             </div>
@@ -76,7 +77,7 @@ const Home = () => {
             <div className="project-top-text">
               <h2>View our projects</h2>
               <div className="project-top-text-row">
-                <a href={"/Work"}><p>View More</p></a>
+                <Link to={"/Work"}><p>View More</p></Link>
                 <i class="fa-solid fa-arrow-right"></i>
               </div>
             </div>
@@ -91,7 +92,7 @@ const Home = () => {
                     aliqua
                   </p>
                   <div className="project-block-row-icon">
-                    <a href={"/Work"}><p>View More</p></a>
+                    <Link to={"/Work"}><p>View More</p></Link>
                     <i class="fa-solid fa-arrow-right"></i>
                   </div>
                 </div>
@@ -102,7 +103,7 @@ const Home = () => {
                   <div className="project-on-right-block">
                     <h2>Unisaas Website Design</h2>
                     <div className="project-block-row-icon">
-                      <a href={"/Work"}><p>View More</p></a>
+                      <Link to={"/Work"}><p>View More</p></Link>
                       <i class="fa-solid fa-arrow-right"></i>
                     </div>
                   </div>
@@ -249,7 +250,7 @@ const Home = () => {
                   <button>Send an Inquiry</button>
                 </div>
                 <div className="section-right-row">
-                  <a href={"/Contact"}><p>Get in touch with us</p></a>
+                  <a to={"/Contact"}><p>Get in touch with us</p></a>
                   <i class="fa-solid fa-arrow-right"></i>
                 </div>
               </div>

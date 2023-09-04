@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import PageContainer from "../../PageContainer"
 import style from "./Contact.module.css"
 
@@ -39,7 +40,7 @@ const Contact =()=>{
 
                     </textarea>
                 </div>
-                <a href="">Send Messege</a>
+                <Link to="#">Send Messege</Link>
             </div>
           </div>
           </PageContainer>

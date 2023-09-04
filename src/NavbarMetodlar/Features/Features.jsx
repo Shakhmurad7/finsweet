@@ -24,7 +24,7 @@ function Features() {
               <div className="nav-left-row">
                 <h3>View our work</h3>
                 <div className={style['nav-left-row-icon']}>
-                  <h4>View Pricing</h4>
+                  <Link to={"/pricing"}><h4>View Pricing</h4></Link>
                   <i class="fa-solid fa-arrow-right"></i>
                 </div>
               </div>

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Work from "../NavbarMetodlar/Work/Work";
 
 const Navbar = () => {
@@ -14,9 +15,9 @@ const Navbar = () => {
                 eiusmod tempor incididunt.
               </p>
               <div className="nav-left-row">
-                <a href={"./Work"}> <h3> View our work</h3> </a>
+              <Link to={"./Work"}> <h3> View our work</h3></Link>
                 <div className="nav-left-icon-row">
-                 <a href={"/Pricing"}><h4>View Pricing</h4></a> 
+                 <Link to={"./Pricing"}><h4>View Pricing</h4></Link> 
                   <i class="fa-solid fa-arrow-right"></i>
                 </div>
               </div>

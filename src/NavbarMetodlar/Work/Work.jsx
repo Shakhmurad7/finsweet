@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import PageContainer from "../../PageContainer";
 import style from "./Work.module.css";
+import { Link } from "react-router-dom";
 
 const Worldata = [
   {
@@ -131,12 +132,12 @@ function Work() {
                   <img src={`./img/${img}`} />
                   <h2>{item}</h2>
                   <p>{text}</p>
-                  <a href={`/Work/${id}`}>
+                  <Link to={`/Work/${id}`}>
                   <div className={style["section-row-icon"]}>
                   <p className={style["p-element"]}> {title}</p>
                   <i class="fa-solid fa-arrow-right"></i>
                   </div>
-                  </a>
+                  </Link>
                 </div>
               );
             })}
@@ -148,7 +149,7 @@ function Work() {
       <div className={style["section-end"]}>
         <h2>Let's build something great together</h2>
         <p>Nullam vitae purus at tortor mattis dapibus. Morbi purus est, ultricies nec dolor sit amet, scelerisque cursus purus.</p>
-        <a href={"/Contact"}>Contact Us</a>
+        <Link to={"/Contact"}>Contact Us</Link>
       </div>
     </PageContainer>
   );

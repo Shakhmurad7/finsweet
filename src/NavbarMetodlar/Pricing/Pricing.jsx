@@ -2,6 +2,7 @@ import React from 'react'
 import PageContainer from '../../PageContainer'
 import style from './Pricing.module.css'
 import Accardion from '../HomePage/Accardion'
+import { Link } from 'react-router-dom'
 
 function Pricing() {
   return (
@@ -48,9 +49,9 @@ function Pricing() {
                     </div>
 
                 <div className={style["section-a-tag"]}>
-                    <a href="">
+                    <Link to="#">
                      Get started
-                    </a>
+                    </Link>
                 </div>
                 </div>
 
@@ -88,9 +89,9 @@ function Pricing() {
                     </div>
 
                 <div className={style["section-a-tag"]}>
-                    <a href="">
+                    <Link to="#">
                      Get started
-                    </a>
+                    </Link>
                 </div>
                 </div>
 
@@ -132,9 +133,9 @@ function Pricing() {
                     </div>
 
                 <div className={style["section-a-tag"]}>
-                    <a href="">
+                    <Link to="#">
                      Get started
-                    </a>
+                    </Link>
                 </div>
                 </div>
             </div>

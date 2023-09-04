@@ -1,6 +1,7 @@
 import React from 'react'
 import PageContainer from '../../PageContainer'
 import style from './Blog.module.css'
+import { Link } from 'react-router-dom'
 
 
 const BlogCard = [
@@ -65,7 +66,7 @@ function Blog() {
                 <p>Andrew Jonson <b>Posted on 27th January 2021</b></p>
                 <img src={'./img/people-working-in-front-of-computer-3182763.png'} />
                 <p>Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle. By the same illusion which lifts the horizon of the sea to the level of the spectator on a hillside.</p>
-                <a href={'/Single'}>Read more</a>
+                <Link to={'/Single'}>Read more</Link>
             </div>
 
             <div className={style["BlogPage-card-top-text"]}>
