@@ -81,7 +81,9 @@ function Blog() {
                                 <h2>{title}</h2>
                                 <p>{text1}</p>
                                 <div className={style["blogpage-icon"]}>
+                                <Link to={'/Single'}>
                                 <p>{text2}</p>
+                                </Link>
                                 <i class="fa-solid fa-arrow-right"></i>
                                 </div>
                             </div>

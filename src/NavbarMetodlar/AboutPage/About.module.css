@@ -238,7 +238,7 @@ body {
 }
 @media(max-width:738px){
   .content{
-   flex-direction: c;
+   flex-direction: column;
   }
   .section-center-left h2{
     font-size: 25px;

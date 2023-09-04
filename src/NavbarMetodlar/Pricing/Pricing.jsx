@@ -49,7 +49,7 @@ function Pricing() {
                     </div>
 
                 <div className={style["section-a-tag"]}>
-                    <Link to="#">
+                <Link to={'/Contact'}>
                      Get started
                     </Link>
                 </div>
@@ -89,7 +89,7 @@ function Pricing() {
                     </div>
 
                 <div className={style["section-a-tag"]}>
-                    <Link to="#">
+                <Link to={'/Contact'}>
                      Get started
                     </Link>
                 </div>
@@ -133,7 +133,7 @@ function Pricing() {
                     </div>
 
                 <div className={style["section-a-tag"]}>
-                    <Link to="#">
+                    <Link to={'/Contact'}>
                      Get started
                     </Link>
                 </div>
