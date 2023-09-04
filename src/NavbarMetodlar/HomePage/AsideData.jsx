@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 function AsideData() {
   const asidedata = [
@@ -40,7 +41,7 @@ function AsideData() {
             <h2>{item}</h2>
             <p className="aside-container-text">{text}</p>
             <div className="section-row-icon">
-              <a href={'/Blog'}><p>{text2}</p></a>
+              <Link to={'/Blog'}><p>{text2}</p></Link>
               <i class="fa-solid fa-arrow-right"></i>
             </div>
           </div>
@@ -51,10 +52,6 @@ function AsideData() {
 </div>
     </>
   )
-
-
-
-
 }
 
 export default AsideData;

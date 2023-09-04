@@ -250,7 +250,7 @@ const Home = () => {
                   <button>Send an Inquiry</button>
                 </div>
                 <div className="section-right-row">
-                  <a to={"/Contact"}><p>Get in touch with us</p></a>
+                  <Link to={"/Contact"}><p>Get in touch with us</p></Link>
                   <i class="fa-solid fa-arrow-right"></i>
                 </div>
               </div>

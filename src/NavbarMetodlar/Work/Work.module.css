@@ -90,6 +90,40 @@
     position: relative;
     animation: myanim 2s infinite;
 }
+.Container-Work{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 100px;
+}
+.block ul{
+    padding: 0px 30px;
+}
+.block ul li{
+    position: relative;
+}
+.block ul li::after{
+    position: absolute;
+    top: 10px;
+    background-color: rgba(0, 0, 0, 0.659);
+    left: -20px;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    content: "";
+}
+.block h2{
+    width:100%;
+    max-width:600px !important ;
+}
+.block{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.block img{
+    width: 100%;
+}
 @keyframes myanim{
     0% {left: 0px;}
     50% {left: 10px;}

@@ -4,6 +4,7 @@ import PageContainer from '../../PageContainer';
 import style from "./Work.module.css";
 
 
+
 const Worldata = [
     {
       id: 1,
@@ -82,6 +83,32 @@ function WorkSingle() {
                 <div className={style["container-row-block"]}>
                     <p>Deliverable</p>
                     <h3>UI Screens, UX Flow & Prototype</h3>
+                </div>
+            </div>
+
+            <div className={style['Container-Work']}>
+              
+                <div className={style['block']}>
+                    <h2>About the project.</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum..</p>
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.</li>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.</li>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.</li>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.</li>
+                    </ul>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <img src={'../img/Cover (6).png'} />
+                </div>
+                <div className={style['block']}>
+                <h2>How we do it.</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum..</p>
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.</li>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.</li>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.</li>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.</li>
+                    </ul>
                 </div>
             </div>
         </div>
