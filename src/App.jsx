@@ -17,15 +17,15 @@ function App() {
     <>
       <Routes>
         <Route path="/" element={<Home/>}/>
-        <Route path="/Contact" element={<Contact/>}/>
-        <Route path="/About" element={<About/>}/>
-        <Route path="/Features" element={<Features/>}/>
-        <Route path="/Pricing" element={<Pricing/>}/>
-        <Route path="/Work" element={<Work/>}/>
-        <Route path="/Work/:id" element={<WorkSingle/>}/>
-        <Route path="/Blog" element={<Blog/>}/>
-        <Route path="/Single" element={<Single/>}/>
-        <Route path="/Faq" element={<FAQ/>}/>
+        <Route path="/contact" element={<Contact/>}/>
+        <Route path="/about" element={<About/>}/>
+        <Route path="/peatures" element={<Features/>}/>
+        <Route path="/pricing" element={<Pricing/>}/>
+        <Route path="/work" element={<Work/>}/>
+        <Route path="/work/:id" element={<WorkSingle/>}/>
+        <Route path="/blog" element={<Blog/>}/>
+        <Route path="/single" element={<Single/>}/>
+        <Route path="/faq" element={<FAQ/>}/>
       </Routes>
     </>
   )
