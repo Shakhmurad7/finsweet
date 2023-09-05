@@ -11,7 +11,7 @@ function Features() {
   return (
     <PageContainer>
 
-        ---NavBar---
+        {/* ---NavBar--- */}
         <div className={style['Navbar']}>
         <nav>
         <div className="Big-container">
