@@ -17,12 +17,12 @@ const Header =()=>{
                     <div className={`header-top-right ${menu? `header-top-right`:`active`}`}>
                         <ul>
                             <NavLink to={'/'}><li>Home</li></NavLink>
-                            <NavLink to={'/About'}><li>About</li></NavLink>
-                            <NavLink to={'/Features'}><li>Features</li></NavLink>
-                            <NavLink to={'/Pricing'}><li>Pricing</li></NavLink>
-                            <NavLink to={'/Faq'}><li>FAQ</li></NavLink>
-                            <NavLink to={'/Blog'}><li>Blog</li></NavLink>
-                            <NavLink to={'/Work'}><li>Work</li></NavLink>
+                            <NavLink to={'/about'}><li>About</li></NavLink>
+                            <NavLink to={'/features'}><li>Features</li></NavLink>
+                            <NavLink to={'/pricing'}><li>Pricing</li></NavLink>
+                            <NavLink to={'/faq'}><li>FAQ</li></NavLink>
+                            <NavLink to={'/blog'}><li>Blog</li></NavLink>
+                            <NavLink to={'/work'}><li>Work</li></NavLink>
                         </ul>
 
                         <Link  className="tage-a" to={"/Contact"}>Contact</Link>
